@@ -1,0 +1,18 @@
+.Notes{
+    background:#edf6f9;
+    height: 80%;
+    flex: 3;
+    display: flex;
+    align-items:center;
+}
+.Box{
+    margin:0 auto;
+    width: 70%;
+    height: 32rem;
+    background: #006466;
+    color: #edf6f9;
+    border-radius: 4px;
+    padding: 2rem;
+    overflow: hidden;
+    position: relative;
+}

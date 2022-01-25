@@ -1,0 +1,42 @@
+.update_notes form{
+    padding: 1rem;
+}
+.update_notes form div{
+    margin: 1.5rem 0rem;
+}
+.update_notes form div label{
+    margin-bottom: 5px;
+    font-size:18px;
+}
+.update_notes form button{
+    display: block;
+    margin:auto;
+    margin-top: 2rem;
+    width: 10rem;
+    height: 3rem;
+    background: #4d194d !important;
+    border: none;
+    color: #f1faee;
+    font-size: 1.2rem;
+}
+.update_notes form button:active{
+    border: none !important;
+}
+.formHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow:row-reverse;
+}
+.formHeader .h3{
+    flex: auto;
+    text-align: center;
+    font-size:2rem;
+}
+.formHeader i{
+    font-size: 2.8rem;
+    padding-left: 1rem;
+    color: #4d194d;
+    font-weight: bold;
+    cursor: pointer;
+}

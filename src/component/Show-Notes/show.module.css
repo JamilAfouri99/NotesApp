@@ -1,0 +1,113 @@
+.h3{
+    text-align: center;
+    font-size:2rem; 
+    padding-bottom:1rem;
+}
+.note{
+    color: #4d194d;
+    background: #edf6f9;
+    margin:1rem 0rem;
+    border-radius:5px !important ;
+}
+.buttons{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttons i{
+    color: #4d194d;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.Notes{
+    overflow: auto;
+    height: 19rem;
+    overflow-x: hidden;
+    padding: 0rem;
+    margin: 1rem;
+    padding-right: 1rem;
+}
+
+.Notes li{
+    background-color: #1445526e;
+    list-style-type: none;
+    margin: 1rem 0rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+/* start custom scroll  */
+::-webkit-scrollbar {
+    width: 10px;
+    padding-left: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #edf6f9; 
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #6c757d; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/* end custom scroll  */
+
+.showNotes .addBtn{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.showNotes .addBtn button{
+    width: 50%;
+    height: 50%;
+    background: none;
+    border: none;
+}
+.showNotes .addBtn button i{
+    font-size: 3rem;
+    color: #f1faee;
+    transition: all 0.2s ease-in-out;
+}
+.showNotes .addBtn button i:hover{
+    color: #4d194d;
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out;
+}
+.showNotes .addBtn button i:active{
+    transform: scale(0.9);
+    transition: all 0.2s ease-in-out;
+}
+.spinner{
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+    top: 47%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text p{
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    color: #f1faee;
+    text-align: left;
+}
+.text p span{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #a20000;
+}

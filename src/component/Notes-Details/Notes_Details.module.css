@@ -1,0 +1,24 @@
+.formHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow:row-reverse;
+}
+.formHeader .h3{
+    flex: auto;
+    text-align: center;
+    font-size:2rem;
+}
+.formHeader i{
+    font-size: 2.8rem;
+    padding-left: 1rem;
+    color: #4d194d;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card_details{
+    margin: 3rem;
+    margin-top: 4rem;
+    background: #4d194deb;
+
+}
